@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pattern Solving Rules</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    h2 {
+      color: #34495e;
+      margin-top: 20px;
+    }
+    ol {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 15px;
+    }
+    code {
+      background: #e9ecef;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: "Courier New", Courier, monospace;
+    }
+    .note {
+      background: #f8f9fa;
+      padding: 10px;
+      border-left: 4px solid #3498db;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Rules for Solving Patterns</h1>
+    <ol>
+      <li>
+        <strong>Figure out the number of lines to be printed and write your outer loop on it.</strong>
+        <p>
+          Determine how many rows (lines) the pattern will have. Use this number to control the outer loop.
+        </p>
+        <p>
+          Example: If the pattern has 5 rows, your outer loop will run 5 times.
+        </p>
+      </li>
+      <li>
+        <strong>Figure out what is happening at every line and try to connect with the outer loop.</strong>
+        <p>
+          Analyze what is being printed in each row (e.g., stars, numbers, etc.) and connect it to the outer loop variable.
+        </p>
+        <p>
+          If possible, write your inner loop based on this logic.
+        </p>
+      </li>
+      <li>
+        <strong>Execute print when needed.</strong>
+        <p>
+          Use <code>console.log()</code> or <code>process.stdout.write()</code> to print the pattern at the appropriate time.
+        </p>
+      </li>
+      <li>
+        <strong>Observe symmetry (optional).</strong>
+        <p>
+          Check if the pattern is symmetric. If it is, you can optimize your code by leveraging symmetry.
+        </p>
+      </li>
+    </ol>
+    <div class="note">
+      <strong>Note:</strong> These rules are general guidelines. Practice is key to mastering pattern-solving!
+    </div>
+  </div>
+</body>
+</html>
